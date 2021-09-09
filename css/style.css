@@ -36,22 +36,23 @@ img {
     flex-wrap: wrap;
 }
 
+.menu-principal {
+    display: flex;
+    max-width: 1230px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
 h3{
-    margin-left: 136px;
     font-size: 1.5rem;
     line-height: 2rem;
     padding: 10px;
+    width: 150px;
 }
-
-.menu-principal {
-    display: flex;
-}
-
 .menu {
     display: flex;
     padding: 15px;
     text-align: center;
-    margin: 0px 240px 0px 83px;
     flex-wrap: wrap;
 }
 
@@ -75,6 +76,7 @@ h3{
 .login{
     display: flex;
     padding: 15px;
+    margin-left: 120px;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -101,8 +103,10 @@ h3{
 
 }
 
-@media(max-width: 1213px){
-    .menu{
-        margin: 0px 140px 0px 83px;
+@media (max-width: 950px) {
+    h3 {
+        width: 150px;
     }
+    
 }
+
