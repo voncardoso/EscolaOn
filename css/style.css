@@ -8,10 +8,13 @@ body {
     background: #FFFFFF;
 }
 
+/* Footer */
+
 .footer {
     display: flex;
     background: #E74040;
     padding: 20px;
+    color: #FFFFFF;
 }
 
 .logo{
@@ -30,5 +33,17 @@ body {
     margin: 0px 240px 0px 83px;
 }
 
+.menu li+li {
+    margin-left: 20px;
+}
+
+.login{
+    display: flex;
+    padding: 10px;
+}
+
+.login li+li {
+    margin-left: 45px;
+}
 
 
