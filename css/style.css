@@ -25,6 +25,7 @@ img {
 
 .footer {
     display: flex;
+    max-width: 100%;
     background: #E74040;
     padding: 20px;
     color: #FFFFFF;
@@ -32,13 +33,13 @@ img {
     font-weight: bold;
     line-height: 1.5rem;
     letter-spacing: 0.2px;
+    flex-wrap: wrap;
 }
 
-.logo{
+h3{
     margin-left: 136px;
     font-size: 1.5rem;
     line-height: 2rem;
-    background: #E74040;
     padding: 10px;
 }
 
@@ -51,6 +52,7 @@ img {
     padding: 15px;
     text-align: center;
     margin: 0px 240px 0px 83px;
+    flex-wrap: wrap;
 }
 
 .menu li+li {
@@ -61,6 +63,7 @@ img {
     display: flex;
     padding: 15px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .login li+li {
@@ -74,4 +77,18 @@ img {
     color: #FFFFFF;
 }
 
+.login a:hover{
+    
+}
 
+.login a::after{
+    content: '🡢';
+    margin-left: 15px;
+
+}
+
+@media(max-width: 1213px){
+    .menu{
+        margin: 0px 140px 0px 83px;
+    }
+}
