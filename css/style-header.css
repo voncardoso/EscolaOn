@@ -83,7 +83,7 @@ h3{
 }
 
 .login li+li {
-    margin-left: 45px;
+    margin-left: 60px;
 }
 
 .join-US a{
@@ -100,8 +100,14 @@ h3{
 
 .join-US a::after{
     content: '🡢';
-    margin-left: 15px;
+    margin-left: 10px;
 
+}
+
+.login-1 a:hover {
+    background: #FF6551;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .btn-mobile {
