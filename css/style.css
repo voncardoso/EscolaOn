@@ -160,7 +160,7 @@ h3{
         background: #E74040;
         height: 0px;
         visibility: hidden;
-        
+        text-align: center;
     }
 
 
@@ -187,13 +187,41 @@ h3{
           transform: translate3d(0, 0, 0);
         }
       }
-      
+
     .btn-mobile {
         display: block;
         width: 30px;
         height: 20px;        
         align-self:center;
         cursor: pointer;
+    }
+
+    .menu li {
+        margin-top: 50px;
+        text-align: center;
+        padding: 2px;
+        
+    }
+
+    .menu a{
+        font-size: 1rem;
+        text-align: center;
+        text-align: center;
+        margin: 0 1rem;
+        border-bottom: 1px solid #FFFFFF;
+        padding: 10px;
+    }
+
+    .menu a:hover{
+        background: #FF6551;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .home{
+        text-align: center;
+        max-width: 441px;
+        margin-left: 20px;
     }
 }
 
