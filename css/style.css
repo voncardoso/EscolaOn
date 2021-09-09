@@ -85,7 +85,7 @@ h3{
     margin-left: 45px;
 }
 
-.login a{
+.join-US a{
     padding: 15px 25px;
     background: #FF6551;
     border-radius: 5px;
@@ -93,7 +93,7 @@ h3{
     transition: 0.1s;
 }
 
-.login a:hover{
+.join-US a:hover{
     background: rgb(255, 101, 81, 0.60);
 }
 
@@ -107,6 +107,12 @@ h3{
     h3 {
         width: 150px;
     }
-    
+    .menu {
+        width: 500px;
+    }
+
+    .login{
+
+    }
 }
 
