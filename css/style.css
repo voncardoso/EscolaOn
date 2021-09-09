@@ -2,10 +2,23 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul, li, p, a{
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background: #FFFFFF;
+    font-family:  'Montserrat', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;/* faz com que a imagem fique respoinsivo sempre aumentado ou diminuindo de arcordo com a tela*/
 }
 
 /* Footer */
@@ -15,10 +28,16 @@ body {
     background: #E74040;
     padding: 20px;
     color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
 }
 
 .logo{
     margin-left: 136px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     background: #E74040;
     padding: 10px;
 }
@@ -29,7 +48,8 @@ body {
 
 .menu {
     display: flex;
-    padding: 10px;
+    padding: 15px;
+    text-align: center;
     margin: 0px 240px 0px 83px;
 }
 
@@ -39,11 +59,19 @@ body {
 
 .login{
     display: flex;
-    padding: 10px;
+    padding: 15px;
+    text-align: center;
 }
 
 .login li+li {
     margin-left: 45px;
+}
+
+.login a{
+    padding: 15px 25px;
+    background: #FF6551;
+    border-radius: 5px;
+    color: #FFFFFF;
 }
 
 
