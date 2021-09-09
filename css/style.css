@@ -55,6 +55,19 @@ h3{
     flex-wrap: wrap;
 }
 
+.menu a{
+    color: #FFFFFF;
+    padding: 0px 10px;
+    transition: 0.1s;
+}
+
+.menu a:hover{
+    background: #FF6551;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
 .menu li+li {
     margin-left: 20px;
 }
@@ -75,10 +88,11 @@ h3{
     background: #FF6551;
     border-radius: 5px;
     color: #FFFFFF;
+    transition: 0.1s;
 }
 
 .login a:hover{
-    
+    background: rgb(255, 101, 81, 0.60);
 }
 
 .login a::after{
