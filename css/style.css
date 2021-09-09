@@ -9,6 +9,7 @@
 body, h1, h2, h3, p, ul, li, p, a{
     margin: 0px;
     padding: 0px;
+    color: #FFFFFF;
 }
 
 body {
@@ -76,7 +77,7 @@ h3{
 .login{
     display: flex;
     padding: 15px;
-    margin-left: 120px;
+    margin-left: 140px;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -97,22 +98,26 @@ h3{
     background: rgb(255, 101, 81, 0.60);
 }
 
-.login a::after{
+.join-US a::after{
     content: '🡢';
     margin-left: 15px;
 
 }
 
+[data-mobile] {
+    background: none;
+    border: none;
+}
+
 @media (max-width: 950px) {
-    h3 {
-        width: 150px;
-    }
+
     .menu {
-        width: 500px;
+        flex-wrap: wrap;
     }
 
     .login{
-
+        margin: 0px 10px 0px 10px;
+        width: 260px;
     }
 }
 
