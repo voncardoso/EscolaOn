@@ -104,10 +104,12 @@ h3{
 
 }
 
-[data-mobile] {
+.btn-mobile {
     background: none;
     border: none;
     display: none;
+    min-width: 30px;
+    min-height: 20px;
 }
 
 @media (max-width: 980px) {
@@ -129,6 +131,56 @@ h3{
 
     a {
         font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 860px){
+
+    nav{
+        width: 880px;
+    }
+
+    h3 {
+        margin-right: 20px;
+    }
+
+    .login{
+        width: 100%;
+        margin-left: 0px;
+        justify-content: flex-end;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 72px;
+        right: 0px;
+        transition: .8s;
+        background: #E74040;
+        height: 0px;
+        visibility: hidden;
+        z-index: 1000;
+    }
+
+    .login li+li{
+        margin-left: 25px;
+    }
+
+    .active {
+        height: calc(100vh - 72px);
+        display: block;
+        overflow: auto;
+        visibility: visible;
+    }
+
+
+    .btn-mobile {
+        display: block;
+        width: 30px;
+        height: 20px;        
+        align-self:center;
+        cursor: pointer;
     }
 }
 
