@@ -1,7 +1,24 @@
-.container{
+
+.introducao{
     display: flex;
     width: 100%;
     position: absolute;
     top: 75px;
-    background: url("../img/icones/Vector\ \(1\).svg") no-repeat center;
+    background: url("../img/icones/Vector\ \(3\).svg") no-repeat center;
+    background-size: cover; /*faz a imagem expandi na tela toda*/
+}
+
+
+.intro-caracteristica{
+    display: block;
+    width: 400px;
+    align-self: center;
+    margin: 0px 0px 0px 250px;
+    
+}
+
+.intro-img{
+    position: relative;
+    top: 20px;
+    margin: auto;
 }
