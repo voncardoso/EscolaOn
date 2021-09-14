@@ -2,23 +2,35 @@
 .introducao{
     display: flex;
     width: 100%;
-    position: absolute;
-    top: 75px;
-    background: url("../img/icones/Vector\ \(3\).svg") no-repeat center;
+    position: relative;
+    justify-content: space-between; /*alinha no eixo x*/
+    top: -60px;
+    background: url("../img/icones/Vector\ \(1\).svg") no-repeat center;
     background-size: cover; /*faz a imagem expandi na tela toda*/
 }
 
 
 .intro-caracteristica{
     display: block;
-    width: 400px;
-    align-self: center;
-    margin: 0px 0px 0px 250px;
+    width: 300px;
+    padding-top: 250px;
+    margin: 0px 0px 0px 130px;
     
 }
 
 .intro-img{
+    display: flex;
+    top: 65px;
     position: relative;
-    top: 20px;
-    margin: auto;
+    align-items: flex-end;
+    margin-right: 4px;
+    z-index: 2;
+}
+
+.intro-caracteristica h1 {
+    max-width: 600px;
+    min-width: 300px;
+    font-size: 3.625rem;
+    line-height: 5rem;
+    letter-spacing: 0.0125rem;
 }

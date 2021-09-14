@@ -24,7 +24,7 @@ img {
 
 /* Footer */
 
-.footer {
+.header {
     display: flex;
     max-width: 100%;
     background: #E74040;
@@ -35,10 +35,14 @@ img {
     line-height: 1.5rem;
     letter-spacing: 0.2px;
     flex-wrap: wrap;
+    
+    
+    
 }
 
 .menu-principal {
     display: flex;
+    z-index: 2;
     max-width: 1230px;
     margin: 0 auto;
     justify-content: space-between;
