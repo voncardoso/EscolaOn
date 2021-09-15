@@ -85,12 +85,35 @@
 @media (max-width: 1260px){
 
     .intro-caracteristica {
-        margin-right: 100px;
+        margin-right: 10px;
     }
     
     .intro-caracteristica h1 {
         font-size: 3rem;
+        line-height: 3.75rem;
         width: 500px;
+    }
+    .intro-caracteristica h5 {
+        margin-bottom: 10px;
+    }
+
+    .intro-img {
+        width: 500px;
+        min-width: 300px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1253px){
+    .intro-caracteristica {
+        margin-right: 10px;
+        width: 300px;
+    }
+    
+    .intro-caracteristica h1 {
+        font-size: 2.5rem;
+        
+        width: 350px;
     }
     .intro-caracteristica h5 {
         margin-bottom: 10px;
@@ -100,10 +123,66 @@
         width: 500px;
         margin-left: 100px;
     }
+
 }
 
-@media (max-width: 1260px){
+@media (max-width: 1250px){
+    .intro-caracteristica {
+        margin-left: 80px;
+        margin-right: 10px;
+        width: 400px;
+    }
     
+    .intro-caracteristica h1 {
+        font-size: 2.5rem;
+        width: 350px;
+    }
+    .intro-caracteristica h5 {
+        margin-bottom: 10px;
+    }
+
+    .intro-img {
+        width: 500px;
+        margin-left: 100px;
+    }
+
+    .learn-button {
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 1151px) {
+    .intro-caracteristica {
+        margin-left: 40px;
+        margin-right: 10px;
+        width: 350px;
+    }
+
+    .learn-button {
+        width: 100px;
+       
+    }
+
+    .now-button{
+        background: #FF6551;
+        padding: 15px 20px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    .learn-button {
+        border: 2px solid #FF6551;
+        padding: 10px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .intro-img {
+        width: 500px;
+        margin-left: 100px;
+        
+    }
 }
 
 

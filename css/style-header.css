@@ -104,6 +104,11 @@ h3{
     min-height: 20px;
 }
 
+@media (max-width: 1255px){
+    .login {
+        margin-left: 60px;
+    }
+}
 @media (max-width: 980px) {
 
     .menu {
@@ -125,6 +130,8 @@ h3{
         font-size: 0.75rem;
     }
 }
+
+
 
 @media (max-width: 860px){
 
