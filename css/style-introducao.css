@@ -3,7 +3,9 @@
     display: flex;
     width: 100%;
     position: relative;
-    justify-content: space-between; /*alinha no eixo x*/
+    justify-content: center; /*alinha no eixo x*/
+    align-items: center;
+    margin: 0 auto;
     top: -10px;
     background: url("../img/icones/Vector\ \(2\).svg") no-repeat center;
     background-size: cover; /*faz a imagem expandi na tela toda*/
@@ -14,8 +16,7 @@
 .intro-caracteristica{
     display: block;
     width: 400px;
-    padding-top: 130px;
-    margin: 0px 0px 0px 120px;
+    margin: 0px 100px 0px 120px;
     
 }
 .intro-caracteristica h5{
@@ -37,7 +38,7 @@
 .intro-caracteristica h4{
     width: 300px;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 1.125rem;
     line-height: 1.875rem;
     letter-spacing: 0.0125rem;
@@ -77,6 +78,8 @@
     margin-right: 30px;
     z-index: 2;
 }
+
+
 
 
 
