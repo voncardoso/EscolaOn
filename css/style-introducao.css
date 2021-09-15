@@ -310,6 +310,62 @@
 } 
 
 
+@media (max-width: 826px){
+    .intro-caracteristica {
+        margin-right: 0px;
+        margin-left: 40px;
+        width: 200px;
+    }
+
+    .learn-button {
+        width: 100px;
+       
+    }
+    .intro-caracteristica h1 {
+        font-size: 1.5625rem;
+        width: 100px;
+        line-height: 2rem;
+    }
+
+    .intro-caracteristica h5{
+        font-size: 0.625rem;
+    }
+
+    .intro-caracteristica h4{
+        font-size: 0.75rem;
+        width: 200px;
+    }
+
+
+    .intro-caracteristica h4{
+        margin: 10px 0 10px 0;
+        line-height: 1.25rem;
+    }
+
+    .now-button{
+        background: #FF6551;
+        font-size: 0.625rem;
+        padding: 5px 5px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    .learn-button {
+        border: 2px solid #FF6551;
+        font-size: 0.625rem;
+        padding: 5px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .intro-img {
+
+        top: 20px;
+        width: 300px;
+        left: 0px;
+    }
+} 
+
 
 
 
