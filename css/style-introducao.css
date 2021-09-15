@@ -24,7 +24,7 @@
 .intro-caracteristica h1 {
     max-width: 600px;
     width: 600px;
-    min-width: 300px;
+    min-width: 140px;
     font-size: 3.375rem;
     line-height: 5rem;
     letter-spacing: 0.0125rem;
@@ -334,10 +334,6 @@
     .intro-caracteristica h4{
         font-size: 0.75rem;
         width: 200px;
-    }
-
-
-    .intro-caracteristica h4{
         margin: 10px 0 10px 0;
         line-height: 1.25rem;
     }
@@ -365,6 +361,55 @@
         left: 0px;
     }
 } 
+
+
+@media (max-width: 630px){
+    .intro-img {
+        top: 20px;
+        width: 200px;
+        left: 10px;
+        margin: 0px auto;
+    }
+} 
+
+
+@media (max-width: 541px){
+    .intro-caracteristica{
+        margin: 0px 18px;
+    }
+
+    .intro-caracteristica h5 {
+        margin-bottom: 0px;
+    }
+
+    .intro-img {
+        top: 20px;
+        width: 200px;
+        left: 10px;
+        margin: 0px auto;
+    }
+} 
+
+@media (max-width: 533px){
+    .intro-caracteristica{
+        margin: 0px 0px 0px 0px;
+        padding: 20px;
+    }
+
+    .intro-caracteristica h5 {
+        margin-bottom: 0px;
+    }
+
+    .intro-img {
+        top: 20px;
+        left: 20px;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 360px){
+
+}
 
 
 

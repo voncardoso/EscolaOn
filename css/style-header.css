@@ -110,40 +110,6 @@ h3{
     }
 }
 
-
-@media (max-width: 1228px){
-    .login {
-        margin-left: 30px; 
-    }
-    .login li+li{
-        margin-left: 40px;
-    }
-
-}
-@media (max-width: 980px) {
-
-    .menu {
-        flex-wrap: wrap;
-    }
-
-    .login{
-        margin: 0px 0px 0px 70px;
-        
-    }
-}
-
-@media (max-width: 916px) {
-    h3{
-        font-size: 1.25rem;
-    }
-
-    a {
-        font-size: 0.75rem;
-    }
-}
-
-
-
 @media (max-width: 1084px){
 
     nav{
@@ -238,6 +204,108 @@ h3{
         
     }
 }
+
+
+@media (max-width: 1228px){
+    .login {
+        margin-left: 30px; 
+    }
+    .login li+li{
+        margin-left: 40px;
+    }
+
+}
+@media (max-width: 980px) {
+
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .login{
+        margin: 0px 0px 0px 70px;
+        
+    }
+}
+
+@media (max-width: 795px) {
+    .login{
+        margin-left: 40px;
+    }
+
+    .login-1{
+        font-size: 0.75rem;
+    }
+
+    .join-US a{
+        font-size: 0.75rem;
+        padding: 10px 20px;
+
+    }
+}
+
+
+@media (max-width: 795px) {
+    .login{
+        margin-left: 20px;
+    }
+
+    .btn-mobile{
+        margin-right: 20px;  
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 490px){
+    .menu-principal{
+        justify-content: space-between;
+    }
+
+    .header{
+        padding: 20px;
+        text-align: center;
+        
+    }
+    .login{
+        margin: 0px;
+        padding: 0px;
+        width: 180px;
+        align-self: center;
+    }
+
+    .login li+li{
+        margin-left: 10px;
+    }
+
+    .btn-mobile{
+        margin-right: 20px;  
+    }
+
+    .logo{
+        width: 80px;
+        margin: 0px;
+        left: 80px;
+
+        text-align: left;
+        align-self: center;
+    }
+
+    .join-US a{
+        font-size: 0.75rem;
+        padding: 5px 10px;
+
+    }
+
+    .logo h3 {
+        width: 120px;
+        font-size:1rem;
+    }
+}
+
+
+
 
 
 
