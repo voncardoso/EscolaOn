@@ -421,8 +421,6 @@
 
 @media (max-width: 508px){
     .intro-caracteristica{
-        margin: 0px;
-
         margin: 15px;
         padding: 5px;
         width: 150px;
@@ -448,12 +446,51 @@
     }
 }
 
-
-@media (max-width: 360px){
+@media (max-width: 488px){
     .introducao {
-        flex-grow: ;
+        flex-direction: column-reverse;
+        color: #252B42;
+    }
+
+    .intro-caracteristica {
+        width: 300px;
+        position: absolute;
+        top: 320px;
+    }
+
+    .intro-caracteristica h1{
+        font-size: 1.875rem;
+        color: #252B42;
+        width: 300px;
+    }
+
+    .intro-caracteristica h5{
+        color: #FF6551;
+    }
+
+    .intro-caracteristica h4{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        width: 220px;
+    }
+
+
+    .learn-button {
+        
+        color: #FF6551;
+        padding: 8px 5px;
+        width: 100px;
+        top:  160px;
+    }
+
+    .now-button {
+        padding: 10px 15px;
     }
 }
+
+
 
 
 
