@@ -1,6 +1,7 @@
 
 .introducao{
     display: flex;
+    flex: 1;
     width: 100%;
     position: relative;
     justify-content: center; /*alinha no eixo x*/
@@ -75,7 +76,7 @@
 .intro-img{
     display: flex;
     top: 40px;
-    min-width: 400px;
+    min-width: 100px;
     position: relative;
     align-items: flex-end;
     margin-right: 30px;
@@ -364,6 +365,9 @@
 
 
 @media (max-width: 630px){
+    .intro-caracteristica h1 {
+        width: 220px;
+    }
     .intro-img {
         top: 20px;
         width: 200px;
@@ -390,14 +394,19 @@
     }
 } 
 
-@media (max-width: 533px){
+@media (max-width: 534px){
+
     .intro-caracteristica{
-        margin: 0px 0px 0px 0px;
-        padding: 20px;
+        margin: 0px 0px 0px 10px;
+        padding: 12px;
     }
 
     .intro-caracteristica h5 {
         margin-bottom: 0px;
+    }
+
+    .now-button {
+        padding: 6px;
     }
 
     .intro-img {
@@ -407,11 +416,44 @@
     }
 }
 
-@media (max-width: 360px){
 
+
+
+@media (max-width: 508px){
+    .intro-caracteristica{
+        margin: 0px;
+
+        margin: 15px;
+        padding: 5px;
+        width: 150px;
+    }
+
+    .intro-caracteristica h1{
+        width: 180px;
+    }
+    .intro-caracteristica h4{
+        width: 180px;
+    }
+
+    .learn-button {
+        position: absolute;
+        text-align: center;
+        width: 80px;
+        margin-top: -2px;
+    }
+
+    .intro-img{
+        left: 10px;
+        margin: 5px;
+    }
 }
 
 
+@media (max-width: 360px){
+    .introducao {
+        flex-grow: ;
+    }
+}
 
 
 
