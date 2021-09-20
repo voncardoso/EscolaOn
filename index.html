@@ -26,9 +26,9 @@
             </ul>
 
             <ul class="login">
-                <li class="login-1"> <a href="#">Login</a></li>
+                <li class="login-1" data-modal="abrir"> <a href="#">Login</a></li>
                 <li class="join-US"><a href="#">JOIN US</a></li>
-                <button class="btn-loginMobile">
+                <button class="btn-loginMobile" data-modal="abrir">
                     <img src="./img/icones/Icone Login 20x20.svg" alt="">
                 </button>
             </ul>
@@ -61,8 +61,24 @@
 
         <img src="./img/icones/thumb-concept.svg">
     </section>
-    
-    <script src="./js/script.js"></script>
-    <script src="./js/menu-Mobile.js"></script>
+
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+            <h2>Login</h4>
+            <button data-modal="fechar" class="fechar">X</button>
+            <form action="">
+                <div class="single-input">
+                    <label for="email">Email</label>
+                    <input type="text" for="email" id="email">
+                </div>
+                <div class="single-input">
+                    <label for="senha">Password </label>
+                    <input type="password" for="senha" id="senha">
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </section>
+    <script type="module" src="./js/script.js"></script>
 </body>
 </html>

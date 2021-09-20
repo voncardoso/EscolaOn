@@ -1,6 +1,6 @@
 @import "./style-header.css";
 @import "./style-introducao.css";
-
+@import "./modal.css";
 
 * {
     list-style: none;

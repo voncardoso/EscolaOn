@@ -33,7 +33,7 @@
 
 .intro-caracteristica h4{
     width: 300px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
     font-size: 1.125rem;
     line-height: 1.875rem;
@@ -42,7 +42,7 @@
 }
 
 .intro-caracteristica h5{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 0.875rem;
     line-height: 1.5rem;
     letter-spacing: 0.0125rem;
@@ -150,6 +150,13 @@
         width: 100px;
     }
 
+}
+
+@media (max-width: 11249px){
+    .intro-img {
+        width: 450px;
+        margin-left: 100px;
+    }
 }
 
 @media (max-width: 1151px) {
@@ -362,7 +369,7 @@
     }
 } 
 
-@media (max-width: 534px){
+@media (max-width: 535px){
 
     .intro-caracteristica{
         margin: 0px 0px 0px 10px;
@@ -383,9 +390,6 @@
         margin: 0px auto;
     }
 }
-
-
-
 
 @media (max-width: 508px){
     .intro-caracteristica{
@@ -414,7 +418,7 @@
     }
 }
 
-@media (max-width: 488px){
+@media (max-width: 511px){
     .introducao {
         flex-direction: column-reverse;
         color: #252B42;
