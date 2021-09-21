@@ -9,11 +9,11 @@
     margin-top: 100px;
 }
 
-.educationIntro h3,h6, p{
+.getQualite h3,h6, p{
     color: #252B42;
 }
 
-.educationIntro p{
+.getQualite p{
     max-width: 550px;
     color: #252B42;
     margin-bottom: 100px;
@@ -21,7 +21,7 @@
 
 
 
-.educationIntro h6{
+.getQualite h6{
     color: #FF6551;
     font-size: 0.875rem;
     line-height: 1.5rem;
@@ -29,9 +29,15 @@
     margin-bottom: 10px;
 }
 
-.educationIntro h3 {
+.getQualite h3 {
     font-size: 2.5rem;
     line-height: 3.125rem;
     letter-spacing: 0.2px;
     margin-bottom: 10px;
+}
+
+.getQualite p{
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.2px;
 }
