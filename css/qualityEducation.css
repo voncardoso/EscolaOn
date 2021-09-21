@@ -5,6 +5,9 @@
     justify-content: center; /*alinha no eixo x*/
    
 }
+.educationIntro {
+    margin-top: 100px;
+}
 
 .educationIntro h3,h6, p{
     color: #252B42;
@@ -13,8 +16,22 @@
 .educationIntro p{
     max-width: 550px;
     color: #252B42;
+    margin-bottom: 100px;
 }
 
-.educationIntro {
-    margin-top: 100px;
+
+
+.educationIntro h6{
+    color: #FF6551;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.educationIntro h3 {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
 }
