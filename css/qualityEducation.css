@@ -11,6 +11,35 @@
     margin: 0 auto;
 }
 
+.getQuality{
+    margin-top: 100px;
+}
+
+.getQuality h6{
+    color: #FF6551;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.getQuality h3 {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.getQuality p {
+    color: #737373;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 100px;
+} 
+
+
 .ImgMostTrusted{
     display: flex;
 }
