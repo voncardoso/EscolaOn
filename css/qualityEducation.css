@@ -36,7 +36,7 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.2px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 } 
 
 
@@ -44,4 +44,46 @@
     display: flex;
 }
 
+.ImgMostTrusted img {
+    width: 500px;
+    padding-right: 100px;
+}
+
+.mosTrusted h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+}
+
+.mosTrusted {
+    align-self: center;
+}
+
+.mosTrusted p{
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    letter-spacing: 0.1px;
+}
+
+.item {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    display: flex;
+
+}
+
+.item span{
+    color: #FF6551;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #ECECEC;
+    background: #ECECEC;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.item div {
+    align-self: center;
+}
 
