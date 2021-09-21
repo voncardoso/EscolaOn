@@ -1,43 +1,18 @@
+.quality-education h3, h6{
+    color: #26335D;
+}
 
-.quality-education {
+.quality-education p{
+    color: #26335D;
+}
+
+.quality-education{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.ImgMostTrusted{
     display: flex;
-    width: 960px;
-    justify-content: center; /*alinha no eixo x*/
-   
-}
-.educationIntro {
-    margin-top: 100px;
-}
-
-.getQualite h3,h6, p{
-    color: #252B42;
-}
-
-.getQualite p{
-    max-width: 550px;
-    color: #252B42;
-    margin-bottom: 100px;
 }
 
 
-
-.getQualite h6{
-    color: #FF6551;
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.2px;
-    margin-bottom: 10px;
-}
-
-.getQualite h3 {
-    font-size: 2.5rem;
-    line-height: 3.125rem;
-    letter-spacing: 0.2px;
-    margin-bottom: 10px;
-}
-
-.getQualite p{
-    font-size: 0.875rem;
-    line-height: 1.125rem;
-    letter-spacing: 0.2px;
-}
