@@ -9,6 +9,7 @@
 .quality-education{
     max-width: 960px;
     margin: 0 auto;
+    padding: 60px;
 }
 
 .getQuality{
@@ -36,7 +37,7 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.2px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 } 
 
 
@@ -45,8 +46,11 @@
 }
 
 .ImgMostTrusted img {
-    width: 500px;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 480px;
     padding-right: 100px;
+    justify-content: center;
 }
 
 .mosTrusted h3{
@@ -57,12 +61,14 @@
 
 .mosTrusted {
     align-self: center;
+    min-height: 200px;
 }
 
 .mosTrusted p{
     font-size: 0.875rem;
     line-height: 0.875rem;
     letter-spacing: 0.1px;
+    max-width: 407px;
 }
 
 .item {
@@ -79,11 +85,89 @@
     border: 2px solid #ECECEC;
     background: #ECECEC;
     border-radius: 50%;
-    padding: 15px;
+    height: 50px;
+    width: 50px;
+    max-width: 50px;
+    min-width: 25px;
+    margin-right: 50px;
+    min-height: 25px;
     margin-right: 20px;
+    padding: 12.5px;
+    text-align: center;
+
 }
 
 .item div {
     align-self: center;
 }
 
+.item h6 {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.item p{
+    font-size: 0.75rem;
+    max-width: 196px;
+}
+
+
+@media(max-width: 886px){
+    .getQuality h3{
+        font-size: 2.1875rem;
+        margin-bottom: 10px;
+    }
+
+    .getQuality h6{
+        font-size: 0.75rem;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 800px){
+    .ImgMostTrusted img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+
+@media(max-width: 700px){
+    .quality-education{
+        padding-top: 0px;
+    }
+    .ImgMostTrusted img{
+        padding-right: 60px;
+    }
+}
+
+@media(max-width: 600px){
+    .getQuality p{
+        margin-bottom: 30px;
+    }
+
+    .ImgMostTrusted {
+       flex-direction: column;
+    }
+
+    .ImgMostTrusted img {
+        margin: 0 auto;
+        justify-content: flex-end;
+        max-width: 300px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 536px){
+    .getQuality h3{
+        font-size: 1.5625rem;
+        line-height: 1.875rem;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 511px){
+    .quality-education{
+        margin-top: 280px;
+    }
+}
