@@ -2,6 +2,7 @@
 @import "./style-introducao.css";
 @import "./qualityEducation.css";
 @import "./modal.css";
+@import "./expertTeacher.css";
 
 * {
     list-style: none;

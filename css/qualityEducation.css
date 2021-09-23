@@ -12,11 +12,11 @@
     padding: 60px;
 }
 
-.getQuality{
+.titulos{
     margin-top: 100px;
 }
 
-.getQuality h6{
+.titulos h6{
     color: #FF6551;
     font-size: 0.875rem;
     line-height: 1.5rem;
@@ -24,15 +24,16 @@
     margin-bottom: 10px;
 }
 
-.getQuality h3 {
+.titulos h3 {
     font-size: 2.5rem;
     line-height: 3.125rem;
     letter-spacing: 0.2px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #26335D;
 }
 
-.getQuality p {
+.titulos p {
     color: #737373;
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -114,12 +115,12 @@
 
 
 @media(max-width: 886px){
-    .getQuality h3{
+    .titulos h3{
         font-size: 2.1875rem;
         margin-bottom: 10px;
     }
 
-    .getQuality h6{
+    .titulos h6{
         font-size: 0.75rem;
         margin-bottom: 0px;
     }
@@ -142,7 +143,7 @@
 }
 
 @media(max-width: 600px){
-    .getQuality p{
+    .titulos p{
         margin-bottom: 30px;
     }
 
@@ -159,7 +160,7 @@
 }
 
 @media(max-width: 536px){
-    .getQuality h3{
+    .titulos h3{
         font-size: 1.5625rem;
         line-height: 1.875rem;
         margin-bottom: 10px;
